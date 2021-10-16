@@ -4,12 +4,31 @@ Code Quality Check:
 ---------- ze_sql_injection ----------
 ['Pass']
 
----------- pep8 ----------
+---------- pyflakes ----------
 ['Pass']
 
 ---------- ze_nolock_rowlock ----------
 ['Pass']
 
----------- pyflakes ----------
+---------- self_assignment ----------
+['Pass']
+
+---------- DateTime ----------
+['Pass']
+
+---------- pep8 ----------
+['D:\\Django\\profiles-rest-api\\profiles_api\\views.py:10:1: W293 blank line contains whitespace',
+ 'D:\\Django\\profiles-rest-api\\profiles_api\\views.py:18:1: W293 blank line contains whitespace',
+ 'D:\\Django\\profiles-rest-api\\profiles_api\\views.py:20:1: W293 blank line contains whitespace',
+ 'D:\\Django\\profiles-rest-api\\profiles_api\\views.py:24:1: W293 blank line contains whitespace',
+ 'D:\\Django\\profiles-rest-api\\profiles_api\\views.py:30:47: W291 trailing whitespace',
+ 'D:\\Django\\profiles-rest-api\\profiles_api\\views.py:32:1: W293 blank line contains whitespace',
+ 'D:\\Django\\profiles-rest-api\\profiles_api\\views.py:36:1: W293 blank line contains whitespace',
+ 'D:\\Django\\profiles-rest-api\\profiles_api\\views.py:37:1: W293 blank line contains whitespace',
+ 'D:\\Django\\profiles-rest-api\\profiles_api\\views.py:38:5: E303 too many blank lines (2)',
+ 'D:\\Django\\profiles-rest-api\\profiles_api\\views.py:41:1: W293 blank line contains whitespace',
+ 'D:\\Django\\profiles-rest-api\\profiles_api\\views.py:44:46: W292 no newline at end of file']
+
+---------- pdb ----------
 ['Pass']
 ==================
