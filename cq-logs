@@ -1,0 +1,15 @@
+Code Quality Check: 
+==================
+
+---------- ze_sql_injection ----------
+['Pass']
+
+---------- pep8 ----------
+['Pass']
+
+---------- ze_nolock_rowlock ----------
+['Pass']
+
+---------- pyflakes ----------
+['Pass']
+==================
